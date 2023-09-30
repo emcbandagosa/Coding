@@ -2,15 +2,16 @@
     box-sizing: border-box;
 }
 body{
+    background-color:rgb(231, 206, 182);
     margin: 0%;
 }
 .header{
-    background-color:rgb(231, 206, 182);
+    background-color:rgb(211, 175, 141);
     padding: 1%;
     text-align: center;
     font-family: 'Picky Retro', sans-serif;
 }
-h1{
+.header h1{
     color: rgb(56, 42, 16);
 }
 .navbar{
@@ -22,14 +23,30 @@ h1{
 .navbar a{
     padding: 15px 20px;
     text-decoration: none;
-    width: 25%;
+    width: 34%;
     text-align: center;
     display: inline-block;
     color: rgb(56, 42, 16);
-    font-family: 'Cute', sans-serif;
-    font-family: 'Spring', sans-serif;
+    font-family: 'SF Arborcrest Medium', sans-serif;
+    font-size: x-large;
+    transition: background-color 2s ease-out 100ms
 }
 .navbar a:hover{
     background-color: rgb(56, 42, 16);
     color: rgb(231, 206, 182);
 }
+.section{
+    padding-left: 0%;
+    margin: 90px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(231, 206, 182);
+    color: rgb(56, 42, 16);
+    text-align: center;
+
+}
+
